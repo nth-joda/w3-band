@@ -202,8 +202,8 @@ Khi làm HTML component:
   color: #fff;
 }
 #content .team-members {
-  height: 286px;
   padding: 32px 0;
+  overflow: hidden;
 }
 #content .person {
   float: left;
