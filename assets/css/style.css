@@ -34,6 +34,7 @@ Khi làm HTML component:
   top: 0;
   height: 46.5px;
   background-color: #000;
+  z-index: 9999;
 }
 #nav {
   display: inline-block;
@@ -54,6 +55,7 @@ Khi làm HTML component:
 #nav > li > a {
   color: #fff;
   text-transform: uppercase;
+  font-size: 15px;
 }
 
 #nav li a {
@@ -114,10 +116,43 @@ Khi làm HTML component:
 }
 
 #slider {
-  min-height: 5000px;
-  background-color: rgb(80, 79, 79);
-  color: white;
+  position: relative;
   margin-top: 46.5px;
+  padding-top: 50%;
+  /* 50% chiều ngang của chính nó */
+  background: url(/assets/img/chicago.jpg) top center / cover no-repeat;
+}
+
+#slider .slider-description {
+  position: absolute;
+  box-sizing: border-box;
+
+  bottom: 48px;
+  /* Cách căn giữa 1: */
+  /* left: 50%;
+  transform: translateX(-50%); */
+
+  /* Cách căn giữa 2: */
+  /* width: 100%; */
+
+  /* Cách căn giữa 3: */
+  right: 0;
+  left: 0;
+
+  /* Căn giữa chữ: */
+  text-align: center;
+
+  color: #fff;
+}
+
+#slider .des-title {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+#slider .des-content {
+  font-size: 15px;
+  margin-top: 25px;
 }
 
 #content {
