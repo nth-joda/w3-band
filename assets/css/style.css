@@ -156,8 +156,71 @@ Khi làm HTML component:
 }
 
 #content {
-  min-height: 5000px;
-  background-color: rgb(179, 116, 116);
+}
+
+#content .white-bg-black-txt {
+  width: 100%;
+  background-color: #fff;
+  color: #000;
+}
+
+#content .content-section {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 64px 0;
+}
+
+#content .section-heading {
+  margin: 10px 0;
+  text-align: center;
+  font-weight: 400;
+  font-size: 30px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+
+#content .section-sub-heading {
+  text-align: center;
+  font-style: italic;
+  font-size: 15px;
+  margin: 15px 0;
+  opacity: 0.6;
+}
+
+#content .about-text {
+  margin: 15px 0;
+  font-size: 15px;
+  text-align: justify;
+  line-height: 1.4;
+}
+
+#content .black-bg-white-txt {
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+}
+#content .team-members {
+  height: 286px;
+  padding: 32px 0;
+}
+#content .person {
+  float: left;
+  width: 33.33333%;
+  text-align: center;
+}
+
+#content .person-name {
+  min-width: 256px;
+  height: 22.5px;
+  margin: 15px 0;
+}
+
+#content .person-avt {
+  height: 154px;
+  width: 154px;
+  border-radius: 4px;
 }
 
 #footer {
