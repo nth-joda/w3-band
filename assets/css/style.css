@@ -237,7 +237,7 @@ Khi làm HTML component:
   padding: 0 16px;
   line-height: 38.5px;
   position: relative;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  border: 0.5px solid rgba(0, 0, 0, 0.3);
 }
 
 #content .status-by-month > .month-name {
@@ -256,16 +256,17 @@ Khi làm HTML component:
 
 #content .status-by-month > .stock {
   display: inline-block;
-  background-color: #000;
-  height: 24px;
-  width: 24px;
-  color: #fff;
-  text-align: center;
-  line-height: 38.5px;
-  border-radius: 50%;
   position: absolute;
+  background-color: #000;
+  color: #fff;
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 28px;
   right: 20px;
-  font-size: 1i5px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 #footer {
