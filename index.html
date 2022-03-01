@@ -72,7 +72,7 @@
             <div class="person">
               <p class="person-name">Name</p>
               <img
-                src="/assets/img/bandmember.jpg"
+                src="./assets/img/bandmember.jpg"
                 alt="person avatar"
                 class="person-avt"
               />
@@ -80,7 +80,7 @@
             <div class="person">
               <p class="person-name">Name</p>
               <img
-                src="/assets/img/bandmember.jpg"
+                src="./assets/img/bandmember.jpg"
                 alt="person avatar"
                 class="person-avt"
               />
@@ -88,7 +88,7 @@
             <div class="person">
               <p class="person-name">Name</p>
               <img
-                src="/assets/img/bandmember.jpg"
+                src="./assets/img/bandmember.jpg"
                 alt="person avatar"
                 class="person-avt"
               />
@@ -121,6 +121,58 @@
                 </div>
               </li>
             </ul>
+
+            <!-- Places: -->
+            <div class="place-list">
+              <div class="place-item">
+                <img
+                  src="./assets/img/places/newyork.jpg"
+                  alt="place: Newyork"
+                  class="place-img"
+                />
+                <div class="place-info">
+                  <h3 class="place-heading">New York</h3>
+                  <p class="place-date">Fri 27 Nov 2016</p>
+                  <p class="place-description">
+                    Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                  </p>
+                  <a href="#" class="place-buy-btn">Buy Tickets</a>
+                </div>
+              </div>
+
+              <div class="place-item">
+                <img
+                  src="./assets/img/places/paris.jpg"
+                  alt="place: Paris"
+                  class="place-img"
+                />
+                <div class="place-info">
+                  <h3 class="place-heading">Paris</h3>
+                  <p class="place-date">Sat 28 Nov 2016</p>
+                  <p class="place-description">
+                    Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                  </p>
+                  <a href="#" class="place-buy-btn">Buy Tickets</a>
+                </div>
+              </div>
+
+              <div class="place-item">
+                <img
+                  src="./assets/img/places/sanfran.jpg"
+                  alt="place: San Francisco"
+                  class="place-img"
+                />
+                <div class="place-info">
+                  <h3 class="place-heading">San Francisco</h3>
+                  <p class="place-date">Sun 29 Nov 2016</p>
+                  <p class="place-description">
+                    Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                  </p>
+                  <a href="#" class="place-buy-btn">Buy Tickets</a>
+                </div>
+              </div>
+              <div class="clear"></div>
+            </div>
           </div>
         </div>
 
@@ -131,6 +183,40 @@
         </div>
       </div>
       <div id="footer">Footer</div>
+    </div>
+
+    <div class="modal">
+      <div class="modal-container">
+        <div class="modal-close">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+
+        <div class="modal-header">
+          <i class="fa-solid fa-suitcase"></i>Tickets
+        </div>
+
+        <div class="modal-body">
+          <div class="modal-label">
+            <label for="">
+              <i class="fa-solid fa-cart-shopping"></i>
+              Tickets, $15 per person
+            </label>
+            <input type="text" class="modal-input" placeholder="How many?" />
+          </div>
+
+          <div class="modal-label">
+            <label for="">
+              <i class="fa-solid fa-user"></i>
+              Send To
+            </label>
+            <input
+              type="text"
+              class="modal-input"
+              placeholder="Enter email..."
+            />
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
